@@ -131,6 +131,6 @@ export const cardInfo = [
             "position":"Founder and Co-President",
             "type":"volunteer"
         },
-
+    }
 ];
 

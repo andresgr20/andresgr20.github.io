@@ -5,8 +5,9 @@ import EmailIcon from '@material-ui/icons/Email';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import './NavBar.css'
 
-export function NavBar(){
+export default function NavBar(){
     return(
+        <header>
         <nav className="nav_bar">
             <ul className="external_links">
                 <li>
@@ -36,9 +37,11 @@ export function NavBar(){
                     <a href="#volunteer">Volunteer Experience</a>
                 </li>
                 <li>
-                    <a href="resume.pdf">Resume</a>
+                    <a href="resume.pdf" download>Resume</a>
                 </li>
             </ul>
         </nav> 
+        </header>
+
     );
 }

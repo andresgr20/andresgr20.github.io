@@ -1,0 +1,23 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.info-section,.profile-section{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.info-section{
+    align-self: flex-start;
+}
+
+#profile{
+    border-radius: 50%;
+    align-self: center;
+    max-width: 50%;
+}

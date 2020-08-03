@@ -1,22 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
-import NavBar from 'NavBar';
+import NavBar from './NavBar';
 import './App.css';
-import {cardInfo as exp} from 'experience';
-import {projectInfo as proj} from 'projects';
+import {cardInfo as exp} from './experience.js';
+import {projectInfo as proj} from './projects.js';
+import About from './About';
 
 function App() {
   return (
+    <>
     <div className="App">
-      <header className="App-header">
       <NavBar></NavBar>
-      </header>
-      <div id="about-me">
-
+      <About></About>
+      <div id="professional">
+      <h2>Experience</h2>
+        {/* {exp.map((item,key)=>{
+          return 
+        })} */}
       </div>
-      <div id="#professional"></div>
-      <div id="#volunteer"></div>
+      <div id="volunteer">
+      <h2>Volunteer Experience</h2>
+      
+      </div>
+
+      <div id="projects">
+      <h2>Projects and Initiatives</h2>
+      </div>
+
     </div>
+    </>
   );
 }
 
