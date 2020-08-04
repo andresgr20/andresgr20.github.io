@@ -1,3 +1,4 @@
+
 .external-links , .internal-links{
     list-style: none;
 
@@ -17,6 +18,11 @@
     transition: all 0.3s ease 0s;
 }
 
+a{
+    color: #edf0f1;
+    text-decoration-line:none;
+}
+
 .internal-links li a:hover{
     transition: all 0.3s ease 0s;
     color: #0088a9;
@@ -26,4 +32,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #24252A;
+    text-decoration: none;
+    width: 100%;
 }
+

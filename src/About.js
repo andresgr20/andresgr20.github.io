@@ -1,7 +1,6 @@
 import './About.css'
 import React from 'react';
 import profile from './pic.jpg'
-import NavBar from './NavBar';
 
 export default function About() {
     return (
