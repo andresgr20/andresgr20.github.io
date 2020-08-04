@@ -1,8 +1,9 @@
 import {projectInfo as info} from './projectInfo';
 import ProjectCard from './ProjectCard';
 import NavBar from './NavBar';
+import React from 'react';
 
-export function Projects(){
+export default function Projects(){
     return(
         <>
         <NavBar/>

@@ -1,5 +1,6 @@
 import NavBar from './NavBar';
-export function Education(){
+import React from 'react';
+export default function Education(){
     return(
     <>
         <NavBar/>

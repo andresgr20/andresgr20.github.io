@@ -4,14 +4,15 @@ import FormGroup from '@material-ui/core/FormGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import React,{useState} from 'react';
 import {experienceInfo as info} from './experienceInfo';
+import Card from './Card'
 
-export function Experience(){
+export default function Experience(){
     const [state,setCheckbox]= useState({
         all: true,
         volunteer: false,
         professional: false
     });
-    
+
     const filtered = (i) =>{
         if(state.all){
             return true;
