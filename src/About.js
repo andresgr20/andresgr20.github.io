@@ -1,9 +1,12 @@
 import './About.css'
 import React from 'react';
 import profile from './pic.jpg'
-console.log(profile)
+import NavBar from './NavBar';
+
 export default function About() {
     return (
+        <>
+        <NavBar/>
         <div className="row">
             <div className="profile-section">
                 <img id="profile" src={profile} alt="profile"></img>
@@ -13,6 +16,6 @@ export default function About() {
     </p>
             </div>
         </div>
-
+        </>
     );
 }

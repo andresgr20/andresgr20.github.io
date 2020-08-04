@@ -4,6 +4,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import EmailIcon from '@material-ui/icons/Email';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import './NavBar.css'
+import {Link} from "react-router-dom";
 
 export default function NavBar(){
     return(
@@ -25,16 +26,16 @@ export default function NavBar(){
             </ul>           
             <ul className="internal_links">
                 <li>
-                    <a href="#about-me">About Me</a>
+                    <Link to="about">About</Link>
                 </li>
                 <li>
-                    <a href="#projects">Projects & Initiatives</a>
+                    <Link to="education">Education & Certifications</Link>
                 </li>
                 <li>
-                    <a href="#professional">Professional Experience</a>
+                    <Link to="experience">Experience</Link>
                 </li>
                 <li>
-                    <a href="#volunteer">Volunteer Experience</a>
+                    <Link to="projects">Projects</Link>
                 </li>
                 <li>
                     <a href="resume.pdf" download>Resume</a>
