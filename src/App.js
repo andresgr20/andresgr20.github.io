@@ -1,18 +1,21 @@
 import React from 'react';
-import NavBar from './NavBar';
 import './App.css';
-import {cardInfo as exp} from './experience.js';
-import {projectInfo as proj} from './projects.js';
 import About from './About';
-import Card from './Card';
-import ProjectCard from './ProjectCard';
+import { useRoutes } from "react-router-dom"
+import Experience from './Experience';
+import Education from './Education';
+import Projects from './Projects';
+
 
 function App() {
-  const uwlogo = "";
-
-  return (
-    <>
-    <div className="App">
+  let element = useRoutes([
+    { path: "/", element: <About /> },
+    { path: "education", element: <Education /> },
+    { path: "experience", element: <Experience /> },
+    { path: "projects", element: <Projects /> },
+  ]);
+  return element;
+    {/* <div className="App">
       <NavBar></NavBar>
       <About></About>
       <div id="professional">
@@ -65,8 +68,8 @@ function App() {
             description={"Business Option, International Studies Minor,Legal Studies Minor"}
             ></Card>
       </div>
-    </div>
-    </>
+    </div>*/}
+    </> 
   );
 }
 
