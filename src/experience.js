@@ -30,7 +30,6 @@ export default function Experience(){
 
     return(
         <>
-        <NavBar/>
         <FormGroup row>
             <FormControlLabel
                 control={<Checkbox checked={state.all} onChange={handleChange} name="all"/>}

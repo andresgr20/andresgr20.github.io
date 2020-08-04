@@ -1,28 +1,28 @@
-.external_links , .internal_links{
+.external-links , .internal-links{
     list-style: none;
 
 }
 
-.external_links li{
+.external-links li{
     display:inline-block;
     padding: 0px 20px;
 }
 
-.internal_links li{
+.internal-links li{
     display:inline-block;
     padding: 0px 20px;
 }
 
-.internal_links li a{
+.internal-links li a{
     transition: all 0.3s ease 0s;
 }
 
-.internal_links li a:hover{
+.internal-links li a:hover{
     transition: all 0.3s ease 0s;
     color: #0088a9;
 }
 
-.nav_bar{
+.nav-bar{
     display: flex;
     justify-content: space-between;
     align-items: center;

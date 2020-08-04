@@ -8,9 +8,8 @@ import {Link} from "react-router-dom";
 
 export default function NavBar(){
     return(
-        <header>
-        <nav className="nav_bar">
-            <ul className="external_links">
+        <nav className="nav-bar">
+            <ul className="external-links">
                 <li>
                     <a href="https://github.com/andresgr20" alt="Github link"><GitHubIcon/></a>
                 </li>
@@ -24,25 +23,24 @@ export default function NavBar(){
                     <a href="https://www.instagram.com/andresgr20/"><InstagramIcon/></a>
                 </li>
             </ul>           
-            <ul className="internal_links">
+            <ul className="internal-links">
                 <li>
-                    <Link to="about">About</Link>
+                    <Link to="/">About</Link>
                 </li>
                 <li>
-                    <Link to="education">Education & Certifications</Link>
+                    <Link to="/education">Education & Certifications</Link>
                 </li>
                 <li>
-                    <Link to="experience">Experience</Link>
+                    <Link to="/experience">Experience</Link>
                 </li>
                 <li>
-                    <Link to="projects">Projects</Link>
+                    <Link to="/projects">Projects</Link>
                 </li>
                 <li>
                     <a href="resume.pdf" download>Resume</a>
                 </li>
             </ul>
         </nav> 
-        </header>
 
     );
 }
