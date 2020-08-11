@@ -1,58 +1,54 @@
-import Checkbox from '@material-ui/core/Checkbox';
-import FormGroup from '@material-ui/core/FormGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import React,{useState} from 'react';
 import {experienceInfo as info} from './experienceInfo';
+import Radio from '@material-ui/core/Radio';
+import RadioGroup from '@material-ui/core/RadioGroup';
 import Card from './Card'
+import './Experience.css'
 
 export default function Experience(){
-    const [state,setCheckbox]= useState({
-        all: true,
-        volunteer: false,
-        professional: false
-    });
+    const [state,setRadio]= useState("all");
 
     const filtered = (i) =>{
-        if(state.all){
+        if(state === 'all'){
             return true;
-        }else if(state.volunteer && i === "professional"){
+        }else if(state === 'volunteer' && i === "volunteer"){
             return true;
-        }else if(state.professional && i === "volunteer"){
+        }else if(state === 'professional' && i === "professional"){
             return true;
         }else{
             return false;
         }
     }
-    const handleChange = (e) => {
-        setCheckbox({...state,[e.target.name]:e.target.checked});
-    }
+    const handleChange = (event) => {
+        setRadio(event.target.value);
+      };
 
     return(
         <>
-        <FormGroup row>
-            <FormControlLabel
-                control={<Checkbox checked={state.all} onChange={handleChange} name="all"/>}
-                label = "All"
-            />
-            <FormControlLabel
-                control={<Checkbox checked={state.volunteer} onChange={handleChange} name="volunteer"/>}
-                label = "Volunteer"
-            /> 
-            <FormControlLabel
-                control={<Checkbox checked={state.professional} onChange={handleChange} name="professional"/>}
-                label = "Professional"
-            />                 
-        </FormGroup>
+        <div className="col">
+        <div className="buttons">
+                <RadioGroup aria-label="experience-type" name="experience-type" value={state} onChange={handleChange} row>
+                    <FormControlLabel value="all" control={<Radio />} label="All" />
+                    <FormControlLabel value="professional" control={<Radio />} label="Professional" />
+                    <FormControlLabel value="volunteer" control={<Radio />} label="Volunteer" />
+                </RadioGroup>               
+        </div>
+        <div className="experience">
             <h2>Experience</h2>
-            {info.filter(item => filtered(item.card.type)).map((item)=>{
-                    return <Card 
-                    url={item.card.url}
-                    company={item.card.company}
-                    title={item.card.position}
-                    date={item.card.duration}
-                    description={item.card.description}
-                    />
-            })}
+                {info.filter(item => filtered(item.card.type)).map((item)=>{
+                        return <Card 
+                        url={item.card.url}
+                        company={item.card.company}
+                        title={item.card.position}
+                        date={item.card.duration}
+                        location={item.card.location}
+                        description={item.card.description}
+                        />
+                })}
+        </div>
+        </div>
+
         </>
     );
 

@@ -1,0 +1,8 @@
+.col{
+    display: grid;
+}
+
+.buttons{
+    margin: auto;
+    padding: 10px;
+}

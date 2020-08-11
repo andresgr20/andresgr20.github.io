@@ -1,0 +1,36 @@
+.card{
+    display: flex;
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 5%;
+}
+.company-pic img{
+    object-fit: contain;
+    width: 50%;
+    align-self: left;
+}
+
+.company{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.company-pic{
+    width: 20%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.company-info{
+    text-align: left;
+}
+
+.date, .location{
+    color: grey;
+}
+
+
+.description{
+
+}

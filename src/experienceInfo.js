@@ -7,7 +7,7 @@ export const experienceInfo = [
             "description": "",
             "duration":"May 2019 - Aug 2019",
             "position":"Developer",
-            "url":"",
+            "url":"rbc.svg",
             "type":"professional"
         },
     },{
@@ -16,7 +16,7 @@ export const experienceInfo = [
             "company": "Borrowell",
             "location": "Toronto,ON",
             "description": "",
-            "url":"",
+            "url":"borrowell.png",
             "duration":"Sept 2018 - Dec 2018",
             "position":"Engineering Intern",
             "type":"professional"
@@ -27,7 +27,7 @@ export const experienceInfo = [
             "company": "Chalk",
             "location": "Waterloo,ON",
             "description": "",
-            "url":"",
+            "url":"chalk.png",
             "duration":"Sept 2018 - Dec 2018",
             "position":"iOS Developer",
             "type":"professional"
@@ -38,7 +38,7 @@ export const experienceInfo = [
             "company": "Mathematics Endowment Fund",
             "location": "Waterloo,ON",
             "description": "",
-            "url":"",
+            "url":"mef.png",
             "duration":"Aug 2017 - Apr 2018,Sept 2019 - Apr 2020",
             "position":"Executive Director",
             "type":"professional"
@@ -49,7 +49,7 @@ export const experienceInfo = [
             "company": "Kognitive Marketing",
             "location": "Waterloo,ON",
             "description": "Event Marketing Representative",
-            "url":"",
+            "url":"kognitive.jpeg",
             "duration":"Sept 2014 - Dec 2014",
             "position":"Event Marketing Representative",
             "type":"professional"
@@ -60,7 +60,7 @@ export const experienceInfo = [
             "company": "University of Waterloo",
             "location": "Waterloo,ON",
             "description": "",
-            "url":"",
+            "url":"waterloo.png",
             "duration":"Jan 2014 - Apr 2014",
             "position":"Instructional Support Assistant(ISA)",
             "type":"professional"
@@ -71,7 +71,7 @@ export const experienceInfo = [
             "company": "Equithon",
             "location": "Waterloo,ON",
             "description": "",
-            "url":"",
+            "url":"equithon.jpeg",
             "duration":"Sept 2017 - Mar 2019",
             "position":"Co-founder & Co-chair",
             "type":"volunteer"
@@ -82,7 +82,7 @@ export const experienceInfo = [
             "company": "Mathematics Society",
             "location": "Waterloo,ON",
             "description": "",
-            "url":"",
+            "url":"mathsoc.png",
             "duration":"May 2018 - Aug 2018",
             "position":"VP Internal",
             "type":"volunteer"
@@ -93,7 +93,7 @@ export const experienceInfo = [
             "company": "Student Sucess Office",
             "location": "Waterloo,ON",
             "description": "",
-            "url":"",
+            "url":"waterloo.png",
             "duration":"Jan 2014 - Apr 2014",
             "position":"Student Facilitator , New Student Transition",
             "type":"volunteer"
@@ -104,7 +104,7 @@ export const experienceInfo = [
             "company": "Entrepreneurship Society",
             "location": "Waterloo,ON",
             "description": "",
-            "url":"",
+            "url":"entsoc.png",
             "duration":"Jan 2017 - Apr 2017",
             "position":"Finance Director & VP Operations",
             "type":"volunteer"
@@ -115,7 +115,7 @@ export const experienceInfo = [
             "company": "Glow",
             "location": "Waterloo,ON",
             "description": "",
-            "url":"",
+            "url":"glow.png",
             "duration":"Aug 2015 - Apr 2016",
             "position":"Service Coordinator",
             "type":"volunteer"
@@ -126,7 +126,7 @@ export const experienceInfo = [
             "company": "Campus Compost",
             "location": "Waterloo,ON",
             "description": "",
-            "url":"",
+            "url":"ccompost.png",
             "duration":"Apr 2014 - Jan 2016",
             "position":"Founder and Co-President",
             "type":"volunteer"

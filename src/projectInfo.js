@@ -25,7 +25,7 @@ export const projectInfo = [
         "card":{
             "name": "Community Engagement Position",
             "finished":"Spring 2018",
-            "description": "Developed a X11 graphics based Catan, integrating the observer pattern with C++ to notify settlers of state changes"
+            "description": "Ideated and created along with the Vice-dean the position that eventually became the Community Engagement Coordinator. It was eventually submitted to the provost for revision and approval of budget."
         },
     },
     

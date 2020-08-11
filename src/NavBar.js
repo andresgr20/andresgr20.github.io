@@ -37,7 +37,7 @@ export default function NavBar(){
                     <Link to="/projects">Projects</Link>
                 </li>
                 <li>
-                    <a href="resume.pdf" download>Resume</a>
+                    <a href={require("./resume.pdf")} download="Resume">Resume</a>
                 </li>
             </ul>
         </nav> 
