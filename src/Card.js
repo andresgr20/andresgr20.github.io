@@ -5,7 +5,7 @@ export default function Card(props){
     return (
         <div className="card">
             <div className="company-pic">
-                <img src={require(`./${props.url}`)} alt={props.company}></img>
+                <img src={require(`./assets/${props.url}`)} alt={props.company}></img>
             </div>
             <div className="company-info">
                 <p className="company">{props.company}</p>
