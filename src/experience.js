@@ -1,6 +1,6 @@
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import React,{useState} from 'react';
-import {experienceInfo as info} from './experienceInfo';
+import {experienceInfo as info} from './data/experienceInfo.js';
 import Radio from '@material-ui/core/Radio';
 import RadioGroup from '@material-ui/core/RadioGroup';
 import Card from './Card'
@@ -38,7 +38,7 @@ export default function Experience(){
             <h2>Experience</h2>
                 {info.filter(item => filtered(item.card.type)).map((item)=>{
                         return <Card 
-                        url={item.card.url}
+                        image={item.card.image}
                         company={item.card.company}
                         title={item.card.position}
                         date={item.card.duration}

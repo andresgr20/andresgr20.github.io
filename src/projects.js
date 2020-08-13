@@ -1,4 +1,4 @@
-import {projectInfo as info} from './projectInfo';
+import {projectInfo as info} from './data/projectInfo';
 import ProjectCard from './ProjectCard';
 import React from 'react';
 
