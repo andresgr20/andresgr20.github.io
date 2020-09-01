@@ -1,4 +1,4 @@
-.row{
+.info{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -24,3 +24,21 @@
     align-self: center;
     max-width: 50%;
 }
+
+
+@media screen and (max-width: 500px) {
+    .info {
+      flex-direction:column;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      padding-left:10%;
+      padding-right:10%;
+      padding-top: 2.5%;
+      margin-right: 0px;
+      margin-left: 0px;
+    }
+    .info-section{
+        padding-top:5%;
+    }
+  }

@@ -5,7 +5,7 @@ import profile from './assets/pic.jpg'
 export default function About() {
     return (
         <>
-        <div className="row">
+        <div className="info">
             <div className="profile-section">
                 <img id="profile" src={profile} alt="profile"></img>
             </div>

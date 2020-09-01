@@ -4,7 +4,9 @@ export const projectInfo = [
         "card":{
             "name": "Rose Dispatch",
             "finished":"July 2020",
-            "description": "Created a driver dispatcher platform using React Hooks using different Calendar libraries."
+            "description": "Created a driver dispatcher platform using React Hooks using different Calendar libraries.",
+            "url":"",
+            "urldescription":""
         },
     }, {
         "id": 2,
@@ -25,7 +27,9 @@ export const projectInfo = [
         "card":{
             "name": "Community Engagement Position",
             "finished":"Spring 2018",
-            "description": "Ideated and created along with the Vice-dean the position that eventually became the Community Engagement Coordinator. It was eventually submitted to the provost for revision and approval of budget."
+            "description": "Ideated and created along with the Vice-dean the position that eventually became the Community Engagement Coordinator. It was eventually submitted to the provost for revision and approval of budget.",
+            "url":"",
+            "urldescription":""
         },
     },
     

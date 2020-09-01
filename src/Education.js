@@ -20,14 +20,19 @@ export default function Education(){
                         />
                 })}
 
-        <h2>Certifations</h2>
+        <h2>Certifications</h2>
+        <div className="projects">
         {cert.map((item) => {
                 return <ProjectCard
                     title={item.info.name}
                     date={item.info.date}
                     link={item.info.download}
+                    url={item.info.url}
+                    urldescrption={item.info.urldescrption}
                 />
             })}  
+        </div>
+
     </>
     );
 }
