@@ -8,7 +8,9 @@ export default function ProjectCard(props){
                 <p className="title">{props.title}</p>
                 <p className="date">{props.date}</p>
                 <p className="description">{props.description}</p>
-                <a href={props.url}><button>{props.urldescription}</button></a>
+                { props.url!== ""  && 
+                    <a href={props.url}><button type="button" class="btn btn-dark">{props.urldescription}</button></a>
+                }
             </div>
         </div>
     );

@@ -32,16 +32,21 @@
 
 
 .description{
-    text-align: justify;
+    text-align: left;
 }
 
 .project-card{
+    padding-top: 5%;
     display: flex;
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 5%;
-    border: 1px solid rgba(0,0,0,.125);
-    border-radius: .25rem;
+    /* border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem; */
     position: relative;
+}
+
+.title{
+    font-weight: bold;
 }

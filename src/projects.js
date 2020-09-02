@@ -13,6 +13,8 @@ export default function Projects(){
                     title={item.card.name}
                     date={item.card.finished}
                     description={item.card.description}
+                    url={item.card.url}
+                    urldescription={item.card.urldescription}
                 />
             })}  
             </div>

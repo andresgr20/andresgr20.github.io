@@ -16,7 +16,7 @@ export default function NavBar(){
 
     return(
         <header>
-            <Navbar className="navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow mb-3">
+            <Navbar className="navbar-expand-sm navbar-toggleable-smborder-bottom box-shadow mb-3" dark>
                 <Nav className="mr-auto icons">
                     <NavItem>
                         <NavLink href="https://github.com/andresgr20"><GitHubIcon/></NavLink>

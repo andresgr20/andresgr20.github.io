@@ -18,3 +18,7 @@ a.nav-link{
 .navbar{
     align-items: normal;
 }
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,102,203);
+  } 
