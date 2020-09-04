@@ -16,8 +16,8 @@ export default function NavBar(){
 
     return(
         <header>
-            <Navbar className="navbar-expand-sm navbar-toggleable-smborder-bottom box-shadow mb-3" dark>
-                <Nav className="mr-auto icons">
+        <Navbar className="navbar-expand-sm navbar-toggleable-sm ng-white border-bottom box-shadow mb-3" light>
+          <Nav className="mr-auto icons">
                     <NavItem>
                         <NavLink href="https://github.com/andresgr20"><GitHubIcon/></NavLink>
                     </NavItem>
@@ -31,29 +31,27 @@ export default function NavBar(){
                         <NavLink href="https://www.instagram.com/andresgr20/"><InstagramIcon/></NavLink>
                     </NavItem>
                 </Nav>
-                <Nav navbar>              
-                    <NavbarToggler onClick={toggle} className="mr-2" />
-                    <Collapse className="d-sm-inline-flex flex-sm-row-reverse" isOpen={isOpen} navbar>
-                        <ul className="navbar-nav flex-grow">
-                        <NavItem>
-                            <NavLink tag={Link} className="text-dark" to="/">About</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink tag={Link} className="text-dark" to="/education" >Education</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink tag={Link} className="text-dark" to="/experience">Experience</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink tag={Link} className="text-dark" to="/projects">Projects</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href={require("./assets/resume.pdf")} download="Resume" className="text-dark">Resume</NavLink>
-                        </NavItem>
-                    </ul>
-                    </Collapse>
-                </Nav>
-            </Navbar>
+            <NavbarToggler onClick={toggle} className="mr-2" />
+            <Collapse className="d-sm-inline-flex flex-sm-row-reverse" isOpen={isOpen} navbar>
+              <ul className="navbar-nav flex-grow">
+                <NavItem>
+                  <NavLink tag={Link} className="text-dark" to="/">About</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink tag={Link} className="text-dark" to="/education">Education</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink tag={Link} className="text-dark" to="/experience">Experience</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink tag={Link} className="text-dark" to="/projects">Projects</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href={require("./assets/resume.pdf")} download="Resume" className="text-dark">Resume</NavLink>
+                </NavItem>
+              </ul>
+            </Collapse>
+        </Navbar>
         </header>
     );
 }
