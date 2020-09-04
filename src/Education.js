@@ -3,7 +3,7 @@ import React from 'react';
 import {experienceInfo as edu} from './data/experienceInfo';
 import {certInfo as cert } from './data/certifications';
 import ProjectCard from './ProjectCard';
-
+import './Projects.css'
 export default function Education(){
 
     return(
@@ -21,14 +21,13 @@ export default function Education(){
                 })}
 
         <h2>Certifications</h2>
-        <div className="projects">
+        <div className="project">
         {cert.map((item) => {
                 return <ProjectCard
                     title={item.info.name}
-                    date={item.info.date}
-                    link={item.info.download}
+                    date={item.info.finished}
                     url={item.info.url}
-                    urldescrption={item.info.urldescrption}
+                    urldescription={item.info.urldescription}
                 />
             })}  
         </div>

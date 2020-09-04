@@ -30,7 +30,7 @@ export const projectInfo = [
             "name": "Community Engagement Position",
             "finished":"Spring 2018",
             "description": "Ideated and created along with the Vice-dean the position that eventually became the Community Engagement Coordinator. It was eventually submitted to the provost for revision and approval of budget.",
-            "url":"require",
+            "url":"Community.pdf",
             "urldescription":"Download"
         },
     },

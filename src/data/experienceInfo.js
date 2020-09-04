@@ -8,7 +8,8 @@ export const experienceInfo = [
             "duration":"May 2019 - Aug 2019",
             "position":"Developer",
             "image":"rbc.svg",
-            "type":"professional"
+            "type":"professional",
+            "url":""
         },
     },{
         "id": 2,
@@ -19,7 +20,8 @@ export const experienceInfo = [
             "image":"borrowell.png",
             "duration":"Sept 2018 - Dec 2018",
             "position":"Engineering Intern",
-            "type":"professional"
+            "type":"professional",
+            "url":""
         },
     },{           
         "id": 3,
@@ -30,7 +32,8 @@ export const experienceInfo = [
             "image":"chalk.png",
             "duration":"Sept 2018 - Dec 2018",
             "position":"iOS Developer",
-            "type":"professional"
+            "type":"professional",
+            "url":""
         },
     },{         
         "id": 4,
@@ -41,7 +44,8 @@ export const experienceInfo = [
             "image":"mef.png",
             "duration":"Aug 2017 - Apr 2018,Sept 2019 - Apr 2020",
             "position":"Executive Director",
-            "type":"professional"
+            "type":"professional",
+            "url":""
         },
     },{         
         "id": 5,
@@ -52,7 +56,8 @@ export const experienceInfo = [
             "image":"kognitive.jpeg",
             "duration":"Sept 2014 - Dec 2014",
             "position":"Event Marketing Representative",
-            "type":"professional"
+            "type":"professional",
+            "url":""
         },
     },{         
         "id": 6,
@@ -63,7 +68,8 @@ export const experienceInfo = [
             "image":"waterloo.png",
             "duration":"Jan 2014 - Apr 2014",
             "position":"Instructional Support Assistant(ISA)",
-            "type":"professional"
+            "type":"professional",
+            "url":""
         },
     },{         
         "id": 7,
@@ -85,7 +91,8 @@ export const experienceInfo = [
             "image":"mathsoc.png",
             "duration":"May 2018 - Aug 2018",
             "position":"VP Internal",
-            "type":"volunteer"
+            "type":"volunteer",
+            "url":""
         },
     },{         
         "id": 9,
@@ -96,7 +103,8 @@ export const experienceInfo = [
             "image":"waterloo.png",
             "duration":"Jan 2014 - Apr 2014",
             "position":"Student Facilitator , New Student Transition",
-            "type":"volunteer"
+            "type":"volunteer",
+            "url":""
         },
     },{         
         "id": 10,
@@ -107,7 +115,8 @@ export const experienceInfo = [
             "image":"entsoc.png",
             "duration":"Jan 2017 - Apr 2017",
             "position":"Finance Director & VP Operations",
-            "type":"volunteer"
+            "type":"volunteer",
+            "url":""
         },
     },{         
         "id": 11,
@@ -118,7 +127,8 @@ export const experienceInfo = [
             "image":"glow.png",
             "duration":"Aug 2015 - Apr 2016",
             "position":"Service Coordinator",
-            "type":"volunteer"
+            "type":"volunteer",
+            "url":""
         },
     },{         
         "id": 12,
@@ -129,18 +139,20 @@ export const experienceInfo = [
             "image":"ccompost.png",
             "duration":"Apr 2014 - Jan 2016",
             "position":"Founder and Co-President",
-            "type":"volunteer"
+            "type":"volunteer",
+            "url":""
         },
     },{         
         "id": 13,
         "card":{
             "company": "University of Waterloo",
             "location": "Waterloo, ON",
-            "description": "Business Option, International Studies Minor,Legal Studies Minor",
+            "description": "Business Option, International Studies Minor, Legal Studies Minor",
             "image":"waterloo.png",
             "duration":"Sept 2012 - Apr 2020",
             "position":"Bachelor in Computer Science",
-            "type":"school"
+            "type":"school",
+            "url":""
         },
     },
 ];
