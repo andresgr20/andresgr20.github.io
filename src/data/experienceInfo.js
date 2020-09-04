@@ -9,7 +9,7 @@ export const experienceInfo = [
             "position":"Developer",
             "image":"rbc.svg",
             "type":"professional",
-            "url":""
+            "url":"https://www.rbcroyalbank.com/personal.html"
         },
     },{
         "id": 2,
@@ -21,7 +21,7 @@ export const experienceInfo = [
             "duration":"Sept 2018 - Dec 2018",
             "position":"Engineering Intern",
             "type":"professional",
-            "url":""
+            "url":"https://borrowell.com/"
         },
     },{           
         "id": 3,
@@ -33,7 +33,7 @@ export const experienceInfo = [
             "duration":"Sept 2018 - Dec 2018",
             "position":"iOS Developer",
             "type":"professional",
-            "url":""
+            "url":"https://chalk.com/"
         },
     },{         
         "id": 4,
@@ -42,10 +42,10 @@ export const experienceInfo = [
             "location": "Waterloo, ON",
             "description": "I was managing the Faculty of Mathematics Endowment Fund. I was responsible for marketing, creating new policies for the fund, managing the student side of the 8 million dollars fund, distributing funds, and interacting with staff members.",
             "image":"mef.png",
-            "duration":"Aug 2017 - Apr 2018,Sept 2019 - Apr 2020",
+            "duration":"Aug 2017 - Apr 2018, Sept 2019 - Apr 2020",
             "position":"Executive Director",
             "type":"professional",
-            "url":""
+            "url":"https://uwaterloo.ca/math-endowment-fund/"
         },
     },{         
         "id": 5,
@@ -57,7 +57,7 @@ export const experienceInfo = [
             "duration":"Sept 2014 - Dec 2014",
             "position":"Event Marketing Representative",
             "type":"professional",
-            "url":""
+            "url":"https://www.kognitivemarketing.com/"
         },
     },{         
         "id": 6,
@@ -69,7 +69,7 @@ export const experienceInfo = [
             "duration":"Jan 2014 - Apr 2014",
             "position":"Instructional Support Assistant(ISA)",
             "type":"professional",
-            "url":""
+            "url":"https://uwaterloo.ca/"
         },
     },{         
         "id": 7,
@@ -92,7 +92,7 @@ export const experienceInfo = [
             "duration":"May 2018 - Aug 2018",
             "position":"VP Internal",
             "type":"volunteer",
-            "url":""
+            "url":"https://mathsoc.uwaterloo.ca/"
         },
     },{         
         "id": 9,
@@ -104,7 +104,7 @@ export const experienceInfo = [
             "duration":"Jan 2014 - Apr 2014",
             "position":"Student Facilitator , New Student Transition",
             "type":"volunteer",
-            "url":""
+            "url":"https://uwaterloo.ca/student-success/"
         },
     },{         
         "id": 10,
@@ -116,7 +116,7 @@ export const experienceInfo = [
             "duration":"Jan 2017 - Apr 2017",
             "position":"Finance Director & VP Operations",
             "type":"volunteer",
-            "url":""
+            "url":"https://entsoc.ca/"
         },
     },{         
         "id": 11,
@@ -128,7 +128,7 @@ export const experienceInfo = [
             "duration":"Aug 2015 - Apr 2016",
             "position":"Service Coordinator",
             "type":"volunteer",
-            "url":""
+            "url":"https://wusa.ca/services/glow-centre-sexual-and-gender-diversity"
         },
     },{         
         "id": 12,
@@ -140,7 +140,7 @@ export const experienceInfo = [
             "duration":"Apr 2014 - Jan 2016",
             "position":"Founder and Co-President",
             "type":"volunteer",
-            "url":""
+            "url":"https://uwcampuscompost.wixsite.com/uwcc"
         },
     },{         
         "id": 13,
@@ -152,8 +152,13 @@ export const experienceInfo = [
             "duration":"Sept 2012 - Apr 2020",
             "position":"Bachelor in Computer Science",
             "type":"school",
-            "url":""
+            "url":"https://uwaterloo.ca/",
+            "awards":"Recipent of J. Alan George Student Leadership Award (Awarded to a graduating student based on community involvement and impact) "
         },
     },
+
+
+    
+
 ];
 

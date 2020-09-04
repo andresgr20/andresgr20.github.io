@@ -1,15 +1,17 @@
-.card{
+.cardInfo{
     display: flex;
     width: 100%;
     flex-direction: column;
     padding-left: 25%;
     padding-right: 25%;
-    padding-bottom: 5%;
+    padding-bottom: 2.5%;
+    position: relative;
+    min-width: 0;
 }
+
 .company-pic img{
-    object-fit: contain;
-    width: 50%;
-    align-self: left;
+    object-fit: scale-down;
+    width: 100%;
 }
 
 .company{
@@ -18,13 +20,12 @@
 }
 
 .company-pic{
-    width: 20%;
-    object-fit: cover;
-    overflow: hidden;
+    width: 25%;
 }
 
 .company-info{
     text-align: left;
+    flex: 1;
 }
 
 .date, .location{
@@ -32,8 +33,12 @@
 }
 
 
-.description{
+.company-description{
     text-align: left;
+}
+
+.topCard{
+    display:flex
 }
 
 .project-card{
@@ -50,5 +55,6 @@
 .title{
     font-weight: bold;
 }
+
 
 

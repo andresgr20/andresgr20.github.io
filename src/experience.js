@@ -10,7 +10,7 @@ export default function Experience(){
     const [state,setRadio]= useState("all");
 
     const filtered = (i) =>{
-        if(state === 'all'){
+        if(state === 'all' && i !== "school"){
             return true;
         }else if(state === 'volunteer' && i === "volunteer"){
             return true;
@@ -44,6 +44,7 @@ export default function Experience(){
                         date={item.card.duration}
                         location={item.card.location}
                         description={item.card.description}
+                        url={item.card.url}
                         />
                 })}
         </div>

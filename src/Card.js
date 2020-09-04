@@ -3,22 +3,23 @@ import './Card.css';
 
 export default function Card(props){
     return (
-        <div className="card">
+        <div className="cardInfo">
             <div className="topCard">
                 <div className="company-info">
-                    <p className="company">{props.company}</p>
+                    <a href={props.url}><p className="company">{props.company}</p></a>
                     <p className="title">{props.title}</p>
                     <p className="date">{props.date}</p>
                     <p className="location">{props.location}</p>
                 </div>
                 <div className="company-pic">
-                <a href={props.url}>
+                {/* <a href={props.url}>
                     <img src={require(`./assets/${props.image}`)} alt={props.company}></img>
-                </a>
+                </a> */}
                 </div>
             </div>
             <div className="company-description">
-                <p className="description">{props.description}</p>
+                <p>{props.description}</p>
+                <p>{props.awards}</p>
             </div>
         </div>
     );

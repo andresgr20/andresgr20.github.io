@@ -17,6 +17,8 @@ export default function Education(){
                         date={item.card.duration}
                         location={item.card.location}
                         description={item.card.description}
+                        awards={item.card.awards}
+                        url={item.card.url}
                         />
                 })}
 
